@@ -1,2 +1,4 @@
 # IOT-yanici-gaz-takip-sistemi
- Android uygulamam, kullanıcıdan IP adresi ve port bilgilerini alarak, Raspberry Pi üzerinde oluşturduğum bir sunucuya bağlanıyor ve gelen JSON formatındaki veriyi gerçek zamanlı olarak gösteriyor.
+ Android uygulamam, kullanıcıdan IP adresi ve port bilgilerini alarak, Raspberry Pi üzerinde çalışan bir sunucuya bağlanıyor ve gelen JSON formatındaki veriyi gerçek zamanlı olarak gösteriyor.
+Python ile geliştirdiğim sunucu kısmında, Socket bağlantısı üzerinden veritabanından gelen bilgileri Android istemcisine iletiyorum. Aynı zamanda, güvenli veri aktarımı sağlamak amacıyla tünelleme teknolojisi kullanarak bağlantıyı şifreli hale getirdim.
+Uygulama, sunucudan gelen verilere göre dinamik olarak değişen görsellerle durumu güncelleyebiliyor. MySQL veritabanı kullanarak veriyi depoluyor ve yönetiyorum.
